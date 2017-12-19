@@ -1,4 +1,5 @@
 export default {
+  languageName: 'Türk',
   admin: {
     address: {
       address1Label: '',
@@ -874,17 +875,6 @@ export default {
     requestsTitle: '',
     sectionTitle: ''
   },
-  languages: {
-    en: '',
-    fr: '',
-    es: '',
-    de: '',
-    ru: '',
-    'es-co': '',
-    'pt-br': '',
-    tr: '',
-    ur: ''
-  },
   loading: {
     messages: {
       '0': '',
@@ -1060,7 +1050,8 @@ export default {
     about: '',
     actions: {
       login: '',
-      logout: ''
+      logout: '',
+      selectLanguage: 'Dil Seçin'
     },
     administration: '',
     billing: '',
@@ -1086,6 +1077,7 @@ export default {
       history: '',
       incidentCategories: '',
       inventoryReceived: '',
+      inventoryReceivedPlus: '',
       invoices: '',
       items: '',
       loadDB: '',

@@ -1,4 +1,5 @@
 export default {
+  languageName: 'اردو',
   admin: {
     address: {
       address1Label: 'ایڈریس 1 لیبل',
@@ -874,17 +875,6 @@ export default {
     requestsTitle: 'لیب درخواستیں',
     sectionTitle: 'لیبز'
   },
-  languages: {
-    en: '',
-    fr: '',
-    es: '',
-    de: '',
-    ru: '',
-    'es-co': '',
-    'pt-br': '',
-    tr: '',
-    ur: ''
-  },
   loading: {
     messages: {
       '0': 'سب سے تیز تیتلی پرواز کی رفتار فی گھنٹہ 12 میل ہے. کچھ کیڑے 25 میل فی گھنٹہ کی رفتار سے پرواز کر سکتے ہیں',
@@ -1060,7 +1050,8 @@ export default {
     about: 'HospitalRun  کے بارے',
     actions: {
       login: 'لاگ ان',
-      logout: 'لاگ آوٹ'
+      logout: 'لاگ آوٹ',
+      selectLanguage: 'زبان منتخب کریں'
     },
     administration: 'انتظامیہ',
     billing: 'بلنگ',
@@ -1086,6 +1077,7 @@ export default {
       history: '',
       incidentCategories: '',
       inventoryReceived: 'انوینٹری موصول',
+      inventoryReceivedPlus: '+ انوینٹری موصو',
       invoices: 'رسیدیں',
       items: 'اشیاء',
       loadDB: 'DB لوڈ کریں',

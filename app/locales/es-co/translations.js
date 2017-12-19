@@ -1,4 +1,5 @@
 export default {
+  languageName: 'Español (Colombiano)',
   admin: {
     address: {
       address1Label: 'Texto direccion 1',
@@ -874,17 +875,6 @@ export default {
     requestsTitle: 'Pedido de laboratorio',
     sectionTitle: 'Laboratorios'
   },
-  languages: {
-    en: '',
-    fr: '',
-    es: '',
-    de: '',
-    ru: '',
-    'es-co': '',
-    'pt-br': '',
-    tr: '',
-    ur: ''
-  },
   loading: {
     messages: {
       '0': '',
@@ -1086,6 +1076,7 @@ export default {
       history: '',
       incidentCategories: '',
       inventoryReceived: 'Inventario recibido',
+      inventoryReceivedPlus: '+ Inventario recibido',
       invoices: 'Facturas',
       items: 'Items',
       loadDB: '',

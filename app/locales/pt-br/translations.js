@@ -1,4 +1,5 @@
 export default {
+  languageName: 'Portugues (Brasileiro)',
   admin: {
     address: {
       address1Label: 'Rótulo Endereço 1',
@@ -874,17 +875,6 @@ export default {
     requestsTitle: 'Requisições de Laboratório',
     sectionTitle: 'Laboratório'
   },
-  languages: {
-    en: '',
-    fr: '',
-    es: '',
-    de: '',
-    ru: '',
-    'es-co': '',
-    'pt-br': '',
-    tr: '',
-    ur: ''
-  },
   loading: {
     messages: {
       '0': 'A velocidade de vôo borboleta superior é de 12 milhas por hora. Alguns meses pode voar 25 milhas por hora!',
@@ -1060,7 +1050,8 @@ export default {
     about: 'Sobre HospitalRun',
     actions: {
       login: 'Entrar',
-      logout: 'Sair'
+      logout: 'Sair',
+      selectLanguage: 'Selecione o idioma'
     },
     administration: 'Administração',
     billing: 'Faturamento',
@@ -1086,6 +1077,7 @@ export default {
       history: '',
       incidentCategories: '',
       inventoryReceived: 'Inventário Recebido',
+      inventoryReceivedPlus: '+ Inventário Recebido',
       invoices: 'Faturas',
       items: 'Itens',
       loadDB: 'Carregar BD',
